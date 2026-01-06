@@ -9,4 +9,15 @@ int printpattern(int n)
 			printf("%d", j);
 		printf("\n");
 	}
+
+}
+int pattern()
+{
+	int n;
+	printf("정수를 입력하시오:");
+	scanf("%d", &n);
+
+	printpattern(n);
+
+	return 0;
 }
