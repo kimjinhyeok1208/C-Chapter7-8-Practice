@@ -17,7 +17,7 @@ int prime_count()
 	int x, y;
 	int count = 0;
 
-	printf("Á¤¼ö 2°³¸¦ ÀÔ·ÂÇÏ½Ã¿À:");
+	printf("ì •ìˆ˜ 2ê°œë¥¼ ìž…ë ¥í•˜ì‹œì˜¤:");
 	scanf("%d %d", &x, &y);
 
 	for (int i = x; i <= y; i++)
@@ -29,4 +29,5 @@ int prime_count()
 	printf("Number of primes: %d\n", count);
 
 	return 0;
+
 }
